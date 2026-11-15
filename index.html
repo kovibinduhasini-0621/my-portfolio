@@ -1,0 +1,203 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+
+    <nav>
+        <h2>My Portfolio</h2>
+
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <!-- HOME SECTION -->
+
+    <section id="home">
+
+        <div class="home-content">
+
+            <h1>Hello, I'm <span>BINDU HASINI</span></h1>
+
+            <h2>Aspiring Full Stack Developer</h2>
+
+            <p>
+                I am a third-year B.Tech student passionate
+                about web development and technology.
+                I love learning new skills and building
+                creative projects.
+            </p>
+
+            <a href="#contact" class="btn">Hire Me</a>
+
+            <a href="#projects" class="btn">View Work</a>
+            <a href="assets/resume.docx" class="btn" download>
+    <i class="fa-solid fa-download"></i>
+    Download Resume
+</a>
+
+
+            <!-- Social Media Icons -->
+
+            <div class="social-icons">
+
+                <a href="https://github.com/kovibinduhasini-0621" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/bindu-hasini-80a7573a9?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- Profile Image -->
+
+        <div class="home-image">
+
+            <img src="profile.jpg" alt="My Profile Photo">
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ABOUT SECTION -->
+
+    <section id="about">
+
+        <h2>About Me</h2>
+
+        <p>
+            I am a third-year B.Tech student passionate about
+            Full Stack Development and problem-solving.
+
+            I enjoy creating websites, learning new technologies
+            and developing projects that solve real-world problems.
+
+            My goal is to become a skilled software developer
+            and contribute to innovative projects.
+        </p>
+
+    </section>
+
+
+
+    <!-- SKILLS SECTION -->
+
+    <section id="skills">
+
+        <h2>My Skills</h2>
+
+        <div class="skills-container">
+
+            <div class="skill">HTML</div>
+
+            <div class="skill">CSS</div>
+
+            <div class="skill">JavaScript</div>
+
+            <div class="skill">Python</div>
+
+            <div class="skill">Java</div>
+
+            <div class="skill">SQL</div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- PROJECTS SECTION -->
+
+    <section id="projects">
+
+        <h2>My Projects</h2>
+
+        <div class="projects-container">
+
+            <div class="project-card">
+
+                <h3>Personal Portfolio Website</h3>
+
+                <p>
+                    A personal portfolio website built using
+                    HTML, CSS and JavaScript to showcase
+                    my skills and projects.
+                </p>
+
+
+        </div>
+
+    </section>
+
+<!-- CONTACT SECTION -->
+
+<section id="contact">
+
+    <h2>Contact Me</h2>
+
+    <p>I'd love to hear from you!</p>
+
+    <form class="contact-form"
+        action="https://formspree.io/f/xvkakkrb"
+        method="POST">
+
+        <input
+            type="text"
+            name="name"
+            placeholder="Your Name"
+            required>
+
+        <input
+            type="email"
+            name="email"
+            placeholder="Your Email"
+            required>
+
+        <input
+            type="text"
+            name="subject"
+            placeholder="Subject"
+            required>
+
+        <textarea
+            name="message"
+            placeholder="Your Message"
+            rows="6"
+            required></textarea>
+
+        <button type="submit" class="btn">
+            Send Message
+        </button>
+
+    </form>
+
+</section>
+<script src="script.js"></script>
+</body>
+</html>
